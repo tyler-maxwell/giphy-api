@@ -56,7 +56,7 @@ $(document.body).on("click", ".btn", function() {
             image.attr("data-animate", results[i].images.fixed_height.url);
             image.attr("data-state", "still");
             var title = $("<p>");
-            title.text("Rating: " + results[i].title);
+            title.text("Title: " + results[i].title);
             var rating = $("<p>");
             rating.text("Rating: " + results[i].rating);
             var favBtn = $("<button>").attr("class", "favorite");
@@ -173,7 +173,7 @@ $("#favorites").on("click", function() {
             image.attr("data-animate", result.images.fixed_height.url);
             image.attr("data-state", "still");
             var title = $("<p>");
-            title.text("Rating: " + result.title);
+            title.text("Title: " + result.title);
             var rating = $("<p>");
             rating.text("Rating: " + result.rating);
             var favBtn = $("<button>").attr("class", "unfavorite");
