@@ -117,7 +117,7 @@ $(document.body).on("click", ".unfavorite", function() {
             image.attr("data-animate", result.images.fixed_height.url);
             image.attr("data-state", "still");
             var title = $("<p>");
-            title.text("Rating: " + result.title);
+            title.text("Title: " + result.title);
             var rating = $("<p>");
             rating.text("Rating: " + result.rating);
             var favBtn = $("<button>").attr("class", "unfavorite");
